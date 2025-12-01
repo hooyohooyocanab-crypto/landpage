@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login & Sign Up</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+
+                                                        
+
+
+    <!-- LOGIN -->
+    <div class="form-box" id="loginBox">
+        <h2>Log In</h2>
+        <input type="text" placeholder="Username">
+        <input type="password" placeholder="Password">
+        <button onclick="window.location.href='index.html'">Login</button>
+        <p>Ma haysatid account? <a href="#" onclick="showSignup()">Sign Up</a></p>
+    </div>
+
+    <!-- SIGN UP -->
+    <div class="form-box hidden" id="signupBox">
+        <h2>Sign Up</h2>
+        <input type="text" placeholder="Full Name">
+        <input type="email" placeholder="Email">
+        <input type="password" placeholder="Password">
+        <button onclick="showLogin()">Create Account</button>
+        <p>Hore u leedahay account? <a href="#" onclick="showLogin()">Log In</a></p>
+    </div>
+
+</div>
+
+   
+
+</body>
+</html>
